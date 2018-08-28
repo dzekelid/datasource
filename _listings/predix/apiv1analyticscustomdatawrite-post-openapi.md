@@ -3,9 +3,9 @@ swagger: "2.0"
 x-collection-name: Predix
 x-complete: 0
 info:
-  title: Predix Analytics Runtime Healthcheck for custom datasource.
+  title: Predix Analytics Runtime Write analytic output data to custom datasource.
   version: 1.0.0
-  description: Indicates whether custom data connector is up and running.
+  description: Writes analytic output data generated during runtime execution.
 host: predix-acs.run.aws-usw02-pr.ice.predix.io
 basePath: /
 schemes:
@@ -42,7 +42,7 @@ paths:
         schema:
           $ref: '#/definitions/holder'
       responses:
-        2:
+        200:
           description: Successful response
       tags:
       - Retrieve
@@ -65,7 +65,7 @@ paths:
         schema:
           $ref: '#/definitions/holder'
       responses:
-        2:
+        200:
           description: Successful response
       tags:
       - Write

@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Datasource",
+	"description": "This is a repository of datasource APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/datasource.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://datasource.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Predix",
+			"x-api-slug": "predix",
+			"description": "Predix (IoT PaaS) helps you develop apps that connect people with industrial machines through analytics and data for better business outcomes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png",
+			"humanURL": "https://www.predix.io",
+			"baseURL": "https:////v1",
+			"tags": "Datasource",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/datasource/master/_listings/predix/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Datasource",
+	"include": [
+		{
+			"name": "Predix",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/datasource/master/_listings/predix/apis.yaml"
+		}
+	]
+}
